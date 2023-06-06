@@ -41,7 +41,7 @@ require('../html/modules/add_users_info.php');
                     <div class="select">
                         <div class="form-group">
                             <select name="career" class="form-control select">
-                                <option value="0">Tất cả ngành nghề</option>
+                                <option value="0">Tất cả vị trí</option>
                                 <?php require_once('../html/modules/import_career.php'); ?>
                             </select>
                         </div>
@@ -138,12 +138,7 @@ require('../html/modules/add_users_info.php');
                 <p>Danh sách các công ty đang tuyển dụng được cập nhật theo thời gian với đa dạng loại ngành nghề, lĩnh vực</p>
             </a>
         </div>
-        <!-- <div class="top-cong-ty ">
-            <a href="file:///D:/DoAnCoSo/HTML/top-cong-ty.html">
-                <h3>Top công ty</h3>
-                <p>Danh sách những công ty top đầu tại thị trường Việt Nam đang tìm kiếm nguồn nhân lực</p>
-            </a>
-        </div> -->
+        
     </div>
 </div>
 <div class="about-us-content ">
